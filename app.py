@@ -61,7 +61,7 @@ if uploaded_file is not None:
                     filtered,
                     x="x",
                     y="value",
-                    title=f"{uploaded_file.name}",
+                    title=f"{value} from {uploaded_file.name}",
                     markers=True,
                 )
 
